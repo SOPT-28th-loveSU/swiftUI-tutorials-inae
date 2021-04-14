@@ -16,11 +16,11 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 HStack {
-                    MyVStackView()
-                    MyVStackView()
-                    MyVStackView()
+                    MyVStackView(isActivated: $isActivated)
+                    MyVStackView(isActivated: $isActivated)
+                    MyVStackView(isActivated: $isActivated)
                 }
-                .padding(isActivated ? 10 : 50)
+                .padding(isActivated ? 50 : 10)
                 .background(isActivated ? Color.red : Color.yellow)
                 .onTapGesture {
                     print("tap!")
@@ -32,7 +32,7 @@ struct ContentView: View {
 
                 // navigation button
                 NavigationLink(
-                    destination: MyTestView()) {
+                    destination: MyTestView(isActivated: $isActivated)) {
                         Text("네비게이션")
                             .font(.system(size: 35))
                             .fontWeight(.bold)
