@@ -11,6 +11,8 @@
 		AB668E272626024100938A3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB668E262626024100938A3E /* ContentView.swift */; };
 		AB668E292626024200938A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB668E282626024200938A3E /* Assets.xcassets */; };
 		AB668E2C2626024200938A3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB668E2B2626024200938A3E /* Preview Assets.xcassets */; };
+		AB668E35262606A000938A3E /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB668E34262606A000938A3E /* MyVStackView.swift */; };
+		ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF32626A4CD008CD8FA /* MyTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AB668E282626024200938A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB668E2B2626024200938A3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB668E2D2626024200938A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB668E34262606A000938A3E /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
+		ABF30EF32626A4CD008CD8FA /* MyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				AB668E282626024200938A3E /* Assets.xcassets */,
 				AB668E2D2626024200938A3E /* Info.plist */,
 				AB668E2A2626024200938A3E /* Preview Content */,
+				AB668E34262606A000938A3E /* MyVStackView.swift */,
+				ABF30EF32626A4CD008CD8FA /* MyTestView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */,
 				AB668E272626024100938A3E /* ContentView.swift in Sources */,
 				AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */,
+				AB668E35262606A000938A3E /* MyVStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

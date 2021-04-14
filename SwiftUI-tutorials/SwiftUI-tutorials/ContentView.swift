@@ -8,11 +8,41 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State
+    private var isActivated: Bool = false
+
+    /// padding을 주고 background를 적용해야 padding에도 background가 적용됨.
     var body: some View {
-        Text("안녕하세요.. 우왕")
-            .fontWeight(.bold)
-            .font(.largeTitle)
-            .padding()
+        NavigationView {
+            VStack {
+                HStack {
+                    MyVStackView()
+                    MyVStackView()
+                    MyVStackView()
+                }
+                .padding(isActivated ? 10 : 50)
+                .background(isActivated ? Color.red : Color.yellow)
+                .onTapGesture {
+                    print("tap!")
+
+                    withAnimation {
+                        self.isActivated.toggle()
+                    }
+                }
+
+                // navigation button
+                NavigationLink(
+                    destination: MyTestView()) {
+                        Text("네비게이션")
+                            .font(.system(size: 35))
+                            .fontWeight(.bold)
+                            .padding()
+                            .background(Color.orange)
+                            .cornerRadius(30)
+                }
+                .padding(.top, 50)
+            }
+        }
     }
 }
 
