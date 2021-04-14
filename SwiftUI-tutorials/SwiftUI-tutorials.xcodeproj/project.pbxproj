@@ -13,6 +13,8 @@
 		AB668E2C2626024200938A3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB668E2B2626024200938A3E /* Preview Assets.xcassets */; };
 		AB668E35262606A000938A3E /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB668E34262606A000938A3E /* MyVStackView.swift */; };
 		ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF32626A4CD008CD8FA /* MyTestView.swift */; };
+		ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF62627545E008CD8FA /* MyWebView.swift */; };
+		ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF9262759E1008CD8FA /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AB668E2D2626024200938A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB668E34262606A000938A3E /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
 		ABF30EF32626A4CD008CD8FA /* MyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
+		ABF30EF62627545E008CD8FA /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
+		ABF30EF9262759E1008CD8FA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				AB668E2A2626024200938A3E /* Preview Content */,
 				AB668E34262606A000938A3E /* MyVStackView.swift */,
 				ABF30EF32626A4CD008CD8FA /* MyTestView.swift */,
+				ABF30EF62627545E008CD8FA /* MyWebView.swift */,
+				ABF30EF9262759E1008CD8FA /* WebView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			files = (
 				ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */,
 				AB668E272626024100938A3E /* ContentView.swift in Sources */,
+				ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */,
+				ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */,
 				AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */,
 				AB668E35262606A000938A3E /* MyVStackView.swift in Sources */,
 			);
