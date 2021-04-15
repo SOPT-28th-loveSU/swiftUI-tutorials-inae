@@ -16,16 +16,17 @@ struct BindingView: View {
             Text("Hello World")
                 .font(.title)
                 .fontWeight(.bold)
-                .foregroundColor(.white)
+                .foregroundColor(.green)
+
+            Button("Click") {
+                showAddView = true
+            }
+            .padding(30)
+            .background(Color(.red))
+            .sheet(isPresented: $showAddView, content: {
+                AddView(isPresented: $showAddView)
+            })
         }
-        .onTapGesture {
-            showAddView = true
-        }
-        .sheet(isPresented: $showAddView) {
-            AddView(isPresented: $showAddView)
-        }
-        .padding(30)
-        .background(Color(.red))
     }
 }
 
