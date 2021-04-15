@@ -16,6 +16,8 @@
 		ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF62627545E008CD8FA /* MyWebView.swift */; };
 		ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF9262759E1008CD8FA /* WebView.swift */; };
 		ABF30EFD2627F4C7008CD8FA /* TextPrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EFC2627F4C7008CD8FA /* TextPrac.swift */; };
+		ABF30F002627FF06008CD8FA /* ImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EFF2627FF06008CD8FA /* ImagePrac.swift */; };
+		ABF30F03262801CA008CD8FA /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30F02262801CA008CD8FA /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		ABF30EF62627545E008CD8FA /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		ABF30EF9262759E1008CD8FA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		ABF30EFC2627F4C7008CD8FA /* TextPrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPrac.swift; sourceTree = "<group>"; };
+		ABF30EFF2627FF06008CD8FA /* ImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePrac.swift; sourceTree = "<group>"; };
+		ABF30F02262801CA008CD8FA /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				ABF30EF62627545E008CD8FA /* MyWebView.swift */,
 				ABF30EF9262759E1008CD8FA /* WebView.swift */,
 				ABF30EFC2627F4C7008CD8FA /* TextPrac.swift */,
+				ABF30EFF2627FF06008CD8FA /* ImagePrac.swift */,
+				ABF30F02262801CA008CD8FA /* CircleImageView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -154,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */,
+				ABF30F03262801CA008CD8FA /* CircleImageView.swift in Sources */,
 				AB668E272626024100938A3E /* ContentView.swift in Sources */,
 				ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */,
+				ABF30F002627FF06008CD8FA /* ImagePrac.swift in Sources */,
 				ABF30EFD2627F4C7008CD8FA /* TextPrac.swift in Sources */,
 				ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */,
 				AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */,
