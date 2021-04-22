@@ -14,6 +14,7 @@
 		AB668E35262606A000938A3E /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB668E34262606A000938A3E /* MyVStackView.swift */; };
 		AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6C26312AA300279E95 /* VStackView.swift */; };
 		AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6F26312EC500279E95 /* HStackView.swift */; };
+		AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC722631319D00279E95 /* ZStackView.swift */; };
 		ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF32626A4CD008CD8FA /* MyTestView.swift */; };
 		ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF62627545E008CD8FA /* MyWebView.swift */; };
 		ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF9262759E1008CD8FA /* WebView.swift */; };
@@ -33,6 +34,7 @@
 		AB668E34262606A000938A3E /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6C26312AA300279E95 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6F26312EC500279E95 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
+		AB8FDC722631319D00279E95 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
 		ABF30EF32626A4CD008CD8FA /* MyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
 		ABF30EF62627545E008CD8FA /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		ABF30EF9262759E1008CD8FA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				ABF30F05262813CE008CD8FA /* BindingView.swift */,
 				AB8FDC6C26312AA300279E95 /* VStackView.swift */,
 				AB8FDC6F26312EC500279E95 /* HStackView.swift */,
+				AB8FDC722631319D00279E95 /* ZStackView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				ABF30EFD2627F4C7008CD8FA /* TextPrac.swift in Sources */,
 				ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */,
 				AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */,
+				AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */,
 				AB668E35262606A000938A3E /* MyVStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
