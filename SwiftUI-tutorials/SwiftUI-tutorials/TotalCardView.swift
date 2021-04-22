@@ -27,13 +27,13 @@ struct TotalCardView: View {
 
                     VStack {
                         ProjectCardView()
-                        BasicCardView()
-                        BasicCardView()
-                        BasicCardView()
-                        BasicCardView()
-                        BasicCardView()
-                        BasicCardView()
-                        BasicCardView()
+                        BasicCardView(title: "책 읽기", start: "10AM", end: "12PM", icon: "book.fill", bgColor: .black)
+                        BasicCardView(title: "책 읽기", start: "10AM", end: "12PM", icon: "book.fill", bgColor: .purple)
+                        BasicCardView(title: "책 읽기", start: "10AM", end: "12PM", icon: "book.fill", bgColor: .orange)
+                        BasicCardView(title: "책 읽기", start: "10AM", end: "12PM", icon: "book.fill", bgColor: .blue)
+                        BasicCardView(title: "책 읽기", start: "10AM", end: "12PM", icon: "book.fill", bgColor: .green)
+                        BasicCardView(title: "책 읽기", start: "10AM", end: "12PM", icon: "book.fill", bgColor: .green)
+
                     }
                 }
 
