@@ -15,6 +15,9 @@
 		AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6C26312AA300279E95 /* VStackView.swift */; };
 		AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6F26312EC500279E95 /* HStackView.swift */; };
 		AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC722631319D00279E95 /* ZStackView.swift */; };
+		AB8FDC762631338900279E95 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC752631338900279E95 /* ProjectCardView.swift */; };
+		AB8FDC792631366200279E95 /* BasicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC782631366200279E95 /* BasicCardView.swift */; };
+		AB8FDC7C2631384600279E95 /* TotalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC7B2631384600279E95 /* TotalCardView.swift */; };
 		ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF32626A4CD008CD8FA /* MyTestView.swift */; };
 		ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF62627545E008CD8FA /* MyWebView.swift */; };
 		ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF9262759E1008CD8FA /* WebView.swift */; };
@@ -35,6 +38,9 @@
 		AB8FDC6C26312AA300279E95 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6F26312EC500279E95 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		AB8FDC722631319D00279E95 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
+		AB8FDC752631338900279E95 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
+		AB8FDC782631366200279E95 /* BasicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCardView.swift; sourceTree = "<group>"; };
+		AB8FDC7B2631384600279E95 /* TotalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCardView.swift; sourceTree = "<group>"; };
 		ABF30EF32626A4CD008CD8FA /* MyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
 		ABF30EF62627545E008CD8FA /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		ABF30EF9262759E1008CD8FA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -90,6 +96,9 @@
 				AB8FDC6C26312AA300279E95 /* VStackView.swift */,
 				AB8FDC6F26312EC500279E95 /* HStackView.swift */,
 				AB8FDC722631319D00279E95 /* ZStackView.swift */,
+				AB8FDC752631338900279E95 /* ProjectCardView.swift */,
+				AB8FDC782631366200279E95 /* BasicCardView.swift */,
+				AB8FDC7B2631384600279E95 /* TotalCardView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -172,17 +181,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */,
+				AB8FDC792631366200279E95 /* BasicCardView.swift in Sources */,
 				ABF30F03262801CA008CD8FA /* CircleImageView.swift in Sources */,
 				ABF30F06262813CE008CD8FA /* BindingView.swift in Sources */,
 				AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */,
 				AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */,
 				AB668E272626024100938A3E /* ContentView.swift in Sources */,
+				AB8FDC7C2631384600279E95 /* TotalCardView.swift in Sources */,
 				ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */,
 				ABF30F002627FF06008CD8FA /* ImagePrac.swift in Sources */,
 				ABF30EFD2627F4C7008CD8FA /* TextPrac.swift in Sources */,
 				ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */,
 				AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */,
 				AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */,
+				AB8FDC762631338900279E95 /* ProjectCardView.swift in Sources */,
 				AB668E35262606A000938A3E /* MyVStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
