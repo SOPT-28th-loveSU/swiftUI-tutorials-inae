@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ProjectCardView: View {
+    @State
+    var shouldShowAlert: Bool = false
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Text("카드뷰 따라할건디")
@@ -28,12 +31,16 @@ struct ProjectCardView: View {
                 Spacer()
                 Button("확인", action: {
                     print("버튼 누르기")
+                    shouldShowAlert = true
                 })
                     .frame(width: 60, alignment: /*@START_MENU_TOKEN@*/ .center/*@END_MENU_TOKEN@*/)
                     .padding(15)
                     .background(Color.blue)
                     .foregroundColor(.white)
                     .cornerRadius(15)
+                .alert(isPresented: $shouldShowAlert, content: {
+                    Alert(title: Text("알람창입니다"))
+                })
             }
         }
         .padding(20)
