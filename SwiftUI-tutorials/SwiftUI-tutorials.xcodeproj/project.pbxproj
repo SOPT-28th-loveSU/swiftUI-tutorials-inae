@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1A9F832635B04E005C3059 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A9F822635B04E005C3059 /* ListView.swift */; };
 		AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB668E242626024100938A3E /* SwiftUI_tutorialsApp.swift */; };
 		AB668E272626024100938A3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB668E262626024100938A3E /* ContentView.swift */; };
 		AB668E292626024200938A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB668E282626024200938A3E /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB1A9F822635B04E005C3059 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		AB668E212626024100938A3E /* SwiftUI-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB668E242626024100938A3E /* SwiftUI_tutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_tutorialsApp.swift; sourceTree = "<group>"; };
 		AB668E262626024100938A3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				AB8FDC752631338900279E95 /* ProjectCardView.swift */,
 				AB8FDC782631366200279E95 /* BasicCardView.swift */,
 				AB8FDC7B2631384600279E95 /* TotalCardView.swift */,
+				AB1A9F822635B04E005C3059 /* ListView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */,
 				AB8FDC792631366200279E95 /* BasicCardView.swift in Sources */,
 				ABF30F03262801CA008CD8FA /* CircleImageView.swift in Sources */,
+				AB1A9F832635B04E005C3059 /* ListView.swift in Sources */,
 				ABF30F06262813CE008CD8FA /* BindingView.swift in Sources */,
 				AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */,
 				AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */,

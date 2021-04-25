@@ -12,7 +12,8 @@ struct SwiftUI_tutorialsApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            TotalCardView() 
+            TotalCardView()
+//            ListView()
         }
     }
 }
