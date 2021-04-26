@@ -15,6 +15,7 @@
 		AB668E35262606A000938A3E /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB668E34262606A000938A3E /* MyVStackView.swift */; };
 		AB8A150126369343008268D2 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A150026369343008268D2 /* CustomNavigationView.swift */; };
 		AB8A150626369C11008268D2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A150526369C11008268D2 /* ProfileView.swift */; };
+		AB8A150C2637169A008268D2 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A150B2637169A008268D2 /* GeometryReaderView.swift */; };
 		AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6C26312AA300279E95 /* VStackView.swift */; };
 		AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6F26312EC500279E95 /* HStackView.swift */; };
 		AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC722631319D00279E95 /* ZStackView.swift */; };
@@ -32,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		AB1A9F822635B04E005C3059 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		AB668E212626024100938A3E /* SwiftUI-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SwiftUI-tutorials.app"; path = "/Users/inae/workspace/swiftUI-tutorials/SwiftUI-tutorials/build/Debug-iphoneos/SwiftUI-tutorials.app"; sourceTree = "<absolute>"; };
 		AB668E242626024100938A3E /* SwiftUI_tutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_tutorialsApp.swift; sourceTree = "<group>"; };
 		AB668E262626024100938A3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB668E282626024200938A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +41,8 @@
 		AB668E34262606A000938A3E /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
 		AB8A150026369343008268D2 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		AB8A150526369C11008268D2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AB8A150A2637167E008268D2 /* SwiftUI-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8A150B2637169A008268D2 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		AB8FDC6C26312AA300279E95 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6F26312EC500279E95 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		AB8FDC722631319D00279E95 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				AB668E232626024100938A3E /* SwiftUI-tutorials */,
+				AB8A150A2637167E008268D2 /* SwiftUI-tutorials.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +102,7 @@
 				AB1A9F822635B04E005C3059 /* ListView.swift */,
 				AB8A150026369343008268D2 /* CustomNavigationView.swift */,
 				AB8A150526369C11008268D2 /* ProfileView.swift */,
+				AB8A150B2637169A008268D2 /* GeometryReaderView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -128,7 +132,7 @@
 			);
 			name = "SwiftUI-tutorials";
 			productName = "SwiftUI-tutorials";
-			productReference = AB668E212626024100938A3E /* SwiftUI-tutorials.app */;
+			productReference = AB8A150A2637167E008268D2 /* SwiftUI-tutorials.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -198,6 +202,7 @@
 				AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */,
 				AB8A150626369C11008268D2 /* ProfileView.swift in Sources */,
 				AB8FDC762631338900279E95 /* ProjectCardView.swift in Sources */,
+				AB8A150C2637169A008268D2 /* GeometryReaderView.swift in Sources */,
 				AB668E35262606A000938A3E /* MyVStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
