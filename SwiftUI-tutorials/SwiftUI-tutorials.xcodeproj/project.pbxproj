@@ -14,6 +14,7 @@
 		AB668E2C2626024200938A3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB668E2B2626024200938A3E /* Preview Assets.xcassets */; };
 		AB668E35262606A000938A3E /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB668E34262606A000938A3E /* MyVStackView.swift */; };
 		AB8A150126369343008268D2 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A150026369343008268D2 /* CustomNavigationView.swift */; };
+		AB8A150626369C11008268D2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A150526369C11008268D2 /* ProfileView.swift */; };
 		AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6C26312AA300279E95 /* VStackView.swift */; };
 		AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6F26312EC500279E95 /* HStackView.swift */; };
 		AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC722631319D00279E95 /* ZStackView.swift */; };
@@ -39,6 +40,7 @@
 		AB668E2D2626024200938A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB668E34262606A000938A3E /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
 		AB8A150026369343008268D2 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		AB8A150526369C11008268D2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AB8FDC6C26312AA300279E95 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6F26312EC500279E95 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		AB8FDC722631319D00279E95 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -96,7 +98,7 @@
 				AB8FDC7B2631384600279E95 /* TotalCardView.swift */,
 				AB1A9F822635B04E005C3059 /* ListView.swift */,
 				AB8A150026369343008268D2 /* CustomNavigationView.swift */,
-				AB8A1503263694BF008268D2 /* New Group */,
+				AB8A150526369C11008268D2 /* ProfileView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -107,13 +109,6 @@
 				AB668E2B2626024200938A3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		AB8A1503263694BF008268D2 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +196,7 @@
 				ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */,
 				AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */,
 				AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */,
+				AB8A150626369C11008268D2 /* ProfileView.swift in Sources */,
 				AB8FDC762631338900279E95 /* ProjectCardView.swift in Sources */,
 				AB668E35262606A000938A3E /* MyVStackView.swift in Sources */,
 			);

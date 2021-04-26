@@ -23,8 +23,11 @@ struct TotalCardView: View {
                                     .foregroundColor(.black)
                             }
                             Spacer()
-                            Image(systemName: "person.crop.circle.fill")
-                                .font(.largeTitle)
+                            NavigationLink(
+                                destination: ProfileView(isHiddenNavigationBar: self.$isNavigationBarHidden)) {
+                                    Image(systemName: "person.crop.circle.fill")
+                                        .font(.largeTitle)
+                            }
                         }
 
                         Text("타이틀 메뉴")
@@ -58,6 +61,16 @@ struct TotalCardView: View {
             .onAppear {
                 self.isNavigationBarHidden = true
             }
+//            .toolbar(content: {
+//                ToolbarItem(placement: .navigationBarTrailing, content: {
+//                    NavigationLink(
+//                        destination: ProfileView()) {
+//                            Image(systemName: "person.crop.circle.fill")
+//                                .frame(width: 30, height: 30, alignment: .center)
+//                                .font(.largeTitle)
+//                    }
+//                })
+//            })
         }
     }
 }

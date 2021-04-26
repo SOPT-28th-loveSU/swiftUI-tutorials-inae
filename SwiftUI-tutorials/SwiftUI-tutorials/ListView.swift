@@ -41,8 +41,8 @@ struct ListView: View {
         }
         .listRowInsets(.none)
         .listStyle(GroupedListStyle())
-//        .navigationTitle("내 목록")
-//        .navigationBarHidden(self.isNavigationBarHidden)
+        .navigationTitle("내 목록")
+        .navigationBarHidden(self.isNavigationBarHidden)
         .onAppear {
             self.isNavigationBarHidden = false
         }
