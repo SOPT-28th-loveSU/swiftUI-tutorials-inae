@@ -27,6 +27,7 @@ struct TotalCardView: View {
                                 destination: ProfileView(isHiddenNavigationBar: self.$isNavigationBarHidden)) {
                                     Image(systemName: "person.crop.circle.fill")
                                         .font(.largeTitle)
+                                        .foregroundColor(.black)
                             }
                         }
 

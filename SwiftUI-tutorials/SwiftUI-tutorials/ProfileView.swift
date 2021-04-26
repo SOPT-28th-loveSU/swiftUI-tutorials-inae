@@ -30,19 +30,26 @@ struct ProfileView: View {
                 HStack(alignment: .center, spacing: 30) {
                     Button(action: {}, label: {
                         Text("밥 사줘")
+                            .frame(width: 80, height: .none, alignment: .center)
+                            .padding()
+                            .foregroundColor(.white)
+                            .font(.system(size: 25))
+                            .background(Color.orange)
+                            .cornerRadius(10)
+
                     })
-                        .frame(width: 80, height: .none, alignment: .center)
-                        .padding()
-                        .cornerRadius(10)
 
                     Button(action: {}, label: {
                         NavigationLink(destination: Text("웅앵")) {
                             Text("여긴 모")
+                                .frame(width: 80, height: .none, alignment: .center)
+                                .padding()
+                                .foregroundColor(.white)
+                                .font(.system(size: 25))
+                                .background(Color.red)
+                                .cornerRadius(10)
                         }
                     })
-                        .frame(width: 80, height: .none, alignment: .center)
-                        .padding()
-                        .cornerRadius(10)
                 }
             }
         }
@@ -50,7 +57,9 @@ struct ProfileView: View {
         .navigationBarItems(trailing:
             Button(action: {}, label: {
                 NavigationLink(destination: Text("웅앵")) {
-                    Text("여긴 모")
+                    Image(systemName: "gear")
+                        .foregroundColor(.black)
+                        .font(.largeTitle)
                 }
             })
         )
