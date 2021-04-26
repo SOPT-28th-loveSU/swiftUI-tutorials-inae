@@ -13,6 +13,7 @@
 		AB668E292626024200938A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB668E282626024200938A3E /* Assets.xcassets */; };
 		AB668E2C2626024200938A3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB668E2B2626024200938A3E /* Preview Assets.xcassets */; };
 		AB668E35262606A000938A3E /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB668E34262606A000938A3E /* MyVStackView.swift */; };
+		AB8A150126369343008268D2 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A150026369343008268D2 /* CustomNavigationView.swift */; };
 		AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6C26312AA300279E95 /* VStackView.swift */; };
 		AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6F26312EC500279E95 /* HStackView.swift */; };
 		AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC722631319D00279E95 /* ZStackView.swift */; };
@@ -30,13 +31,14 @@
 
 /* Begin PBXFileReference section */
 		AB1A9F822635B04E005C3059 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		AB668E212626024100938A3E /* SwiftUI-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB668E212626024100938A3E /* SwiftUI-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SwiftUI-tutorials.app"; path = "/Users/inae/workspace/swiftUI-tutorials/SwiftUI-tutorials/build/Debug-iphoneos/SwiftUI-tutorials.app"; sourceTree = "<absolute>"; };
 		AB668E242626024100938A3E /* SwiftUI_tutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_tutorialsApp.swift; sourceTree = "<group>"; };
 		AB668E262626024100938A3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB668E282626024200938A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB668E2B2626024200938A3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB668E2D2626024200938A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB668E34262606A000938A3E /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
+		AB8A150026369343008268D2 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		AB8FDC6C26312AA300279E95 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6F26312EC500279E95 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		AB8FDC722631319D00279E95 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -67,16 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				AB668E232626024100938A3E /* SwiftUI-tutorials */,
-				AB668E222626024100938A3E /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		AB668E222626024100938A3E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AB668E212626024100938A3E /* SwiftUI-tutorials.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		AB668E232626024100938A3E /* SwiftUI-tutorials */ = {
@@ -102,6 +95,8 @@
 				AB8FDC782631366200279E95 /* BasicCardView.swift */,
 				AB8FDC7B2631384600279E95 /* TotalCardView.swift */,
 				AB1A9F822635B04E005C3059 /* ListView.swift */,
+				AB8A150026369343008268D2 /* CustomNavigationView.swift */,
+				AB8A1503263694BF008268D2 /* New Group */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -112,6 +107,13 @@
 				AB668E2B2626024200938A3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB8A1503263694BF008268D2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +159,7 @@
 				Base,
 			);
 			mainGroup = AB668E182626024100938A3E;
-			productRefGroup = AB668E222626024100938A3E /* Products */;
+			productRefGroup = AB668E182626024100938A3E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -193,6 +195,7 @@
 				AB668E272626024100938A3E /* ContentView.swift in Sources */,
 				AB8FDC7C2631384600279E95 /* TotalCardView.swift in Sources */,
 				ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */,
+				AB8A150126369343008268D2 /* CustomNavigationView.swift in Sources */,
 				ABF30F002627FF06008CD8FA /* ImagePrac.swift in Sources */,
 				ABF30EFD2627F4C7008CD8FA /* TextPrac.swift in Sources */,
 				ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */,

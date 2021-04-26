@@ -19,7 +19,7 @@ struct ListView: View {
 
         UITableView.appearance().separatorStyle = .none
         UITableView.appearance().separatorColor = .clear
-        
+
         _isNavigationBarHidden = isNavigationBarHidden
     }
 
@@ -41,7 +41,11 @@ struct ListView: View {
         }
         .listRowInsets(.none)
         .listStyle(GroupedListStyle())
-        .navigationTitle("내 목록")
+//        .navigationTitle("내 목록")
+//        .navigationBarHidden(self.isNavigationBarHidden)
+        .onAppear {
+            self.isNavigationBarHidden = false
+        }
     }
 }
 

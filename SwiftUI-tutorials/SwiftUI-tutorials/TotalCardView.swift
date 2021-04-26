@@ -20,6 +20,7 @@ struct TotalCardView: View {
                             NavigationLink(destination: ListView(isNavigationBarHidden: self.$isNavigationBarHidden)) {
                                 Image(systemName: "line.horizontal.3")
                                     .font(.largeTitle)
+                                    .foregroundColor(.black)
                             }
                             Spacer()
                             Image(systemName: "person.crop.circle.fill")
