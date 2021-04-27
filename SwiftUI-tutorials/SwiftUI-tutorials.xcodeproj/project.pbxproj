@@ -19,6 +19,9 @@
 		AB8A15112637D88E008268D2 /* BasicTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A15102637D88E008268D2 /* BasicTabView.swift */; };
 		AB8A15172637DC6D008268D2 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A15162637DC6D008268D2 /* CustomTabView.swift */; };
 		AB8A151A2637E8A4008268D2 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A15192637E8A4008268D2 /* ColorView.swift */; };
+		AB8A151D26380BBA008268D2 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A151C26380BBA008268D2 /* CustomButtonView.swift */; };
+		AB8A152026380CB3008268D2 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */; };
+		AB8A152326381655008268D2 /* RatateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A152226381655008268D2 /* RatateButtonStyle.swift */; };
 		AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6C26312AA300279E95 /* VStackView.swift */; };
 		AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6F26312EC500279E95 /* HStackView.swift */; };
 		AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC722631319D00279E95 /* ZStackView.swift */; };
@@ -49,6 +52,9 @@
 		AB8A15102637D88E008268D2 /* BasicTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTabView.swift; sourceTree = "<group>"; };
 		AB8A15162637DC6D008268D2 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		AB8A15192637E8A4008268D2 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		AB8A151C26380BBA008268D2 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		AB8A152226381655008268D2 /* RatateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatateButtonStyle.swift; sourceTree = "<group>"; };
 		AB8FDC6C26312AA300279E95 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6F26312EC500279E95 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		AB8FDC722631319D00279E95 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 				AB8A15102637D88E008268D2 /* BasicTabView.swift */,
 				AB8A15162637DC6D008268D2 /* CustomTabView.swift */,
 				AB8A15192637E8A4008268D2 /* ColorView.swift */,
+				AB8A151C26380BBA008268D2 /* CustomButtonView.swift */,
+				AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */,
+				AB8A152226381655008268D2 /* RatateButtonStyle.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -196,10 +205,12 @@
 				ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */,
 				AB8FDC792631366200279E95 /* BasicCardView.swift in Sources */,
 				AB8A151A2637E8A4008268D2 /* ColorView.swift in Sources */,
+				AB8A151D26380BBA008268D2 /* CustomButtonView.swift in Sources */,
 				ABF30F03262801CA008CD8FA /* CircleImageView.swift in Sources */,
 				AB1A9F832635B04E005C3059 /* ListView.swift in Sources */,
 				ABF30F06262813CE008CD8FA /* BindingView.swift in Sources */,
 				AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */,
+				AB8A152326381655008268D2 /* RatateButtonStyle.swift in Sources */,
 				AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */,
 				AB8A15172637DC6D008268D2 /* CustomTabView.swift in Sources */,
 				AB668E272626024100938A3E /* ContentView.swift in Sources */,
@@ -209,6 +220,7 @@
 				ABF30F002627FF06008CD8FA /* ImagePrac.swift in Sources */,
 				ABF30EFD2627F4C7008CD8FA /* TextPrac.swift in Sources */,
 				ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */,
+				AB8A152026380CB3008268D2 /* CustomButtonStyle.swift in Sources */,
 				AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */,
 				AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */,
 				AB8A15112637D88E008268D2 /* BasicTabView.swift in Sources */,
