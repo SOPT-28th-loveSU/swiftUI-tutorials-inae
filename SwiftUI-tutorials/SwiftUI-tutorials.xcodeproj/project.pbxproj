@@ -16,6 +16,7 @@
 		AB8A150126369343008268D2 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A150026369343008268D2 /* CustomNavigationView.swift */; };
 		AB8A150626369C11008268D2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A150526369C11008268D2 /* ProfileView.swift */; };
 		AB8A150C2637169A008268D2 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A150B2637169A008268D2 /* GeometryReaderView.swift */; };
+		AB8A15112637D88E008268D2 /* BasicTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A15102637D88E008268D2 /* BasicTabView.swift */; };
 		AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6C26312AA300279E95 /* VStackView.swift */; };
 		AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6F26312EC500279E95 /* HStackView.swift */; };
 		AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC722631319D00279E95 /* ZStackView.swift */; };
@@ -43,6 +44,7 @@
 		AB8A150526369C11008268D2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AB8A150A2637167E008268D2 /* SwiftUI-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8A150B2637169A008268D2 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		AB8A15102637D88E008268D2 /* BasicTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTabView.swift; sourceTree = "<group>"; };
 		AB8FDC6C26312AA300279E95 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6F26312EC500279E95 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		AB8FDC722631319D00279E95 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				AB8A150026369343008268D2 /* CustomNavigationView.swift */,
 				AB8A150526369C11008268D2 /* ProfileView.swift */,
 				AB8A150B2637169A008268D2 /* GeometryReaderView.swift */,
+				AB8A15102637D88E008268D2 /* BasicTabView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */,
 				AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */,
 				AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */,
+				AB8A15112637D88E008268D2 /* BasicTabView.swift in Sources */,
 				AB8A150626369C11008268D2 /* ProfileView.swift in Sources */,
 				AB8FDC762631338900279E95 /* ProjectCardView.swift in Sources */,
 				AB8A150C2637169A008268D2 /* GeometryReaderView.swift in Sources */,
