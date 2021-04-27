@@ -14,7 +14,8 @@ struct SwiftUI_tutorialsApp: App {
 //            ContentView()
 //            TotalCardView()
 //            ListView()
-            GeometryReaderView()
+//            GeometryReaderView()
+            CustomTabView()
         }
     }
 }
