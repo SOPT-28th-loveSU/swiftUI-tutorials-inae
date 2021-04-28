@@ -17,7 +17,8 @@ struct SwiftUI_tutorialsApp: App {
 //            GeometryReaderView()
 //            CustomTabView()
 //            CustomButtonView()
-            CustomTextFieldView() 
+//            CustomTextFieldView()
+            CustomPopUpView()
         }
     }
 }

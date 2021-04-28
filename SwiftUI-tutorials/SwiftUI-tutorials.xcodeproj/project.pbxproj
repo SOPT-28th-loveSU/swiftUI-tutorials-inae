@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,7 @@
 		AB8A152026380CB3008268D2 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */; };
 		AB8A152326381655008268D2 /* RatateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A152226381655008268D2 /* RatateButtonStyle.swift */; };
 		AB8A152F2639B4D9008268D2 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A152E2639B4D9008268D2 /* CustomTextFieldView.swift */; };
+		AB8A15362639BC68008268D2 /* CustomPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A15352639BC68008268D2 /* CustomPopUpView.swift */; };
 		AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6C26312AA300279E95 /* VStackView.swift */; };
 		AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6F26312EC500279E95 /* HStackView.swift */; };
 		AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC722631319D00279E95 /* ZStackView.swift */; };
@@ -59,6 +60,7 @@
 		AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		AB8A152226381655008268D2 /* RatateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatateButtonStyle.swift; sourceTree = "<group>"; };
 		AB8A152E2639B4D9008268D2 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
+		AB8A15352639BC68008268D2 /* CustomPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpView.swift; sourceTree = "<group>"; };
 		AB8FDC6C26312AA300279E95 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6F26312EC500279E95 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		AB8FDC722631319D00279E95 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -102,7 +104,6 @@
 				D5C8F4A923B2177006C66238 /* Pods-SwiftUI-tutorials.debug.xcconfig */,
 				777854C6C825288B73DE9291 /* Pods-SwiftUI-tutorials.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +150,7 @@
 				AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */,
 				AB8A152226381655008268D2 /* RatateButtonStyle.swift */,
 				AB8A152E2639B4D9008268D2 /* CustomTextFieldView.swift */,
+				AB8A15352639BC68008268D2 /* CustomPopUpView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -284,6 +286,7 @@
 				AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */,
 				AB8A152F2639B4D9008268D2 /* CustomTextFieldView.swift in Sources */,
 				AB8A152326381655008268D2 /* RatateButtonStyle.swift in Sources */,
+				AB8A15362639BC68008268D2 /* CustomPopUpView.swift in Sources */,
 				AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */,
 				AB8A15172637DC6D008268D2 /* CustomTabView.swift in Sources */,
 				AB668E272626024100938A3E /* ContentView.swift in Sources */,
