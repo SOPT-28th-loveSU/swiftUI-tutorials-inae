@@ -22,6 +22,7 @@
 		AB8A151D26380BBA008268D2 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A151C26380BBA008268D2 /* CustomButtonView.swift */; };
 		AB8A152026380CB3008268D2 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */; };
 		AB8A152326381655008268D2 /* RatateButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A152226381655008268D2 /* RatateButtonStyle.swift */; };
+		AB8A152F2639B4D9008268D2 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8A152E2639B4D9008268D2 /* CustomTextFieldView.swift */; };
 		AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6C26312AA300279E95 /* VStackView.swift */; };
 		AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC6F26312EC500279E95 /* HStackView.swift */; };
 		AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC722631319D00279E95 /* ZStackView.swift */; };
@@ -35,9 +36,11 @@
 		ABF30F002627FF06008CD8FA /* ImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EFF2627FF06008CD8FA /* ImagePrac.swift */; };
 		ABF30F03262801CA008CD8FA /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30F02262801CA008CD8FA /* CircleImageView.swift */; };
 		ABF30F06262813CE008CD8FA /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30F05262813CE008CD8FA /* BindingView.swift */; };
+		CC9BA47BF42463434E528C52 /* Pods_SwiftUI_tutorials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6AFED8DBB1D6024673E009 /* Pods_SwiftUI_tutorials.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		777854C6C825288B73DE9291 /* Pods-SwiftUI-tutorials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-tutorials.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-tutorials/Pods-SwiftUI-tutorials.release.xcconfig"; sourceTree = "<group>"; };
 		AB1A9F822635B04E005C3059 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		AB668E242626024100938A3E /* SwiftUI_tutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_tutorialsApp.swift; sourceTree = "<group>"; };
 		AB668E262626024100938A3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		AB8A151C26380BBA008268D2 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		AB8A152226381655008268D2 /* RatateButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatateButtonStyle.swift; sourceTree = "<group>"; };
+		AB8A152E2639B4D9008268D2 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
 		AB8FDC6C26312AA300279E95 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		AB8FDC6F26312EC500279E95 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		AB8FDC722631319D00279E95 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		ABF30EFF2627FF06008CD8FA /* ImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePrac.swift; sourceTree = "<group>"; };
 		ABF30F02262801CA008CD8FA /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		ABF30F05262813CE008CD8FA /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		D5C8F4A923B2177006C66238 /* Pods-SwiftUI-tutorials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-tutorials.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-tutorials/Pods-SwiftUI-tutorials.debug.xcconfig"; sourceTree = "<group>"; };
+		DF6AFED8DBB1D6024673E009 /* Pods_SwiftUI_tutorials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_tutorials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,17 +81,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9BA47BF42463434E528C52 /* Pods_SwiftUI_tutorials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0D3E9AA79B2B230502ECE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF6AFED8DBB1D6024673E009 /* Pods_SwiftUI_tutorials.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAFF97592343A330526C71BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5C8F4A923B2177006C66238 /* Pods-SwiftUI-tutorials.debug.xcconfig */,
+				777854C6C825288B73DE9291 /* Pods-SwiftUI-tutorials.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB668E182626024100938A3E = {
 			isa = PBXGroup;
 			children = (
 				AB668E232626024100938A3E /* SwiftUI-tutorials */,
 				AB8A150A2637167E008268D2 /* SwiftUI-tutorials.app */,
+				AAFF97592343A330526C71BB /* Pods */,
+				1F0D3E9AA79B2B230502ECE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +148,7 @@
 				AB8A151C26380BBA008268D2 /* CustomButtonView.swift */,
 				AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */,
 				AB8A152226381655008268D2 /* RatateButtonStyle.swift */,
+				AB8A152E2639B4D9008268D2 /* CustomTextFieldView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -140,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB668E302626024200938A3E /* Build configuration list for PBXNativeTarget "SwiftUI-tutorials" */;
 			buildPhases = (
+				F9E127C5C462A01EDF526B43 /* [CP] Check Pods Manifest.lock */,
 				AB668E1D2626024100938A3E /* Sources */,
 				AB668E1E2626024100938A3E /* Frameworks */,
 				AB668E1F2626024100938A3E /* Resources */,
+				8283905D2610EDAE9A057637 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +227,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8283905D2610EDAE9A057637 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-tutorials/Pods-SwiftUI-tutorials-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-tutorials/Pods-SwiftUI-tutorials-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-tutorials/Pods-SwiftUI-tutorials-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E127C5C462A01EDF526B43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-tutorials-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB668E1D2626024100938A3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -210,6 +282,7 @@
 				AB1A9F832635B04E005C3059 /* ListView.swift in Sources */,
 				ABF30F06262813CE008CD8FA /* BindingView.swift in Sources */,
 				AB8FDC6D26312AA300279E95 /* VStackView.swift in Sources */,
+				AB8A152F2639B4D9008268D2 /* CustomTextFieldView.swift in Sources */,
 				AB8A152326381655008268D2 /* RatateButtonStyle.swift in Sources */,
 				AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */,
 				AB8A15172637DC6D008268D2 /* CustomTabView.swift in Sources */,
@@ -352,6 +425,7 @@
 		};
 		AB668E312626024200938A3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C8F4A923B2177006C66238 /* Pods-SwiftUI-tutorials.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -374,6 +448,7 @@
 		};
 		AB668E322626024200938A3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777854C6C825288B73DE9291 /* Pods-SwiftUI-tutorials.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
