@@ -30,6 +30,7 @@
 		AB8FDC762631338900279E95 /* ProjectCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC752631338900279E95 /* ProjectCardView.swift */; };
 		AB8FDC792631366200279E95 /* BasicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC782631366200279E95 /* BasicCardView.swift */; };
 		AB8FDC7C2631384600279E95 /* TotalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC7B2631384600279E95 /* TotalCardView.swift */; };
+		ABB0F411264070DE00C665F9 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0F410264070DE00C665F9 /* ColorPickerView.swift */; };
 		ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF32626A4CD008CD8FA /* MyTestView.swift */; };
 		ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF62627545E008CD8FA /* MyWebView.swift */; };
 		ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF9262759E1008CD8FA /* WebView.swift */; };
@@ -67,6 +68,7 @@
 		AB8FDC752631338900279E95 /* ProjectCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCardView.swift; sourceTree = "<group>"; };
 		AB8FDC782631366200279E95 /* BasicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCardView.swift; sourceTree = "<group>"; };
 		AB8FDC7B2631384600279E95 /* TotalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCardView.swift; sourceTree = "<group>"; };
+		ABB0F410264070DE00C665F9 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		ABF30EF32626A4CD008CD8FA /* MyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
 		ABF30EF62627545E008CD8FA /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		ABF30EF9262759E1008CD8FA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				AB8A152226381655008268D2 /* RatateButtonStyle.swift */,
 				AB8A152E2639B4D9008268D2 /* CustomTextFieldView.swift */,
 				AB8A15352639BC68008268D2 /* CustomPopUpView.swift */,
+				ABB0F410264070DE00C665F9 /* ColorPickerView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				AB8A152F2639B4D9008268D2 /* CustomTextFieldView.swift in Sources */,
 				AB8A152326381655008268D2 /* RatateButtonStyle.swift in Sources */,
 				AB8A15362639BC68008268D2 /* CustomPopUpView.swift in Sources */,
+				ABB0F411264070DE00C665F9 /* ColorPickerView.swift in Sources */,
 				AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */,
 				AB8A15172637DC6D008268D2 /* CustomTabView.swift in Sources */,
 				AB668E272626024100938A3E /* ContentView.swift in Sources */,
