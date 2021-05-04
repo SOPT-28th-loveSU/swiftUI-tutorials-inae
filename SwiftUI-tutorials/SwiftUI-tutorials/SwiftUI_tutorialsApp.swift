@@ -18,7 +18,8 @@ struct SwiftUI_tutorialsApp: App {
 //            CustomTabView()
 //            CustomButtonView()
 //            CustomTextFieldView()
-            CustomPopUpView()
+//            CustomPopUpView()
+            DeepLinkView()
         }
     }
 }

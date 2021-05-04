@@ -32,6 +32,9 @@
 		AB8FDC7C2631384600279E95 /* TotalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8FDC7B2631384600279E95 /* TotalCardView.swift */; };
 		ABB0F411264070DE00C665F9 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0F410264070DE00C665F9 /* ColorPickerView.swift */; };
 		ABB0F4142640770100C665F9 /* FilterPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0F4132640770100C665F9 /* FilterPickerView.swift */; };
+		ABB0F4172641228700C665F9 /* DeepLinkTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0F4162641228700C665F9 /* DeepLinkTodo.swift */; };
+		ABB0F41A26412A5F00C665F9 /* DeepLinkProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0F41926412A5F00C665F9 /* DeepLinkProfile.swift */; };
+		ABB0F41E26412D0C00C665F9 /* DeepLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0F41D26412D0C00C665F9 /* DeepLinkView.swift */; };
 		ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF32626A4CD008CD8FA /* MyTestView.swift */; };
 		ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF62627545E008CD8FA /* MyWebView.swift */; };
 		ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF9262759E1008CD8FA /* WebView.swift */; };
@@ -71,6 +74,9 @@
 		AB8FDC7B2631384600279E95 /* TotalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCardView.swift; sourceTree = "<group>"; };
 		ABB0F410264070DE00C665F9 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		ABB0F4132640770100C665F9 /* FilterPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPickerView.swift; sourceTree = "<group>"; };
+		ABB0F4162641228700C665F9 /* DeepLinkTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkTodo.swift; sourceTree = "<group>"; };
+		ABB0F41926412A5F00C665F9 /* DeepLinkProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkProfile.swift; sourceTree = "<group>"; };
+		ABB0F41D26412D0C00C665F9 /* DeepLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkView.swift; sourceTree = "<group>"; };
 		ABF30EF32626A4CD008CD8FA /* MyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
 		ABF30EF62627545E008CD8FA /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		ABF30EF9262759E1008CD8FA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -157,6 +163,9 @@
 				AB8A15352639BC68008268D2 /* CustomPopUpView.swift */,
 				ABB0F410264070DE00C665F9 /* ColorPickerView.swift */,
 				ABB0F4132640770100C665F9 /* FilterPickerView.swift */,
+				ABB0F4162641228700C665F9 /* DeepLinkTodo.swift */,
+				ABB0F41926412A5F00C665F9 /* DeepLinkProfile.swift */,
+				ABB0F41D26412D0C00C665F9 /* DeepLinkView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -294,6 +303,7 @@
 				AB8A152326381655008268D2 /* RatateButtonStyle.swift in Sources */,
 				AB8A15362639BC68008268D2 /* CustomPopUpView.swift in Sources */,
 				ABB0F411264070DE00C665F9 /* ColorPickerView.swift in Sources */,
+				ABB0F41A26412A5F00C665F9 /* DeepLinkProfile.swift in Sources */,
 				ABB0F4142640770100C665F9 /* FilterPickerView.swift in Sources */,
 				AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */,
 				AB8A15172637DC6D008268D2 /* CustomTabView.swift in Sources */,
@@ -303,7 +313,9 @@
 				AB8A150126369343008268D2 /* CustomNavigationView.swift in Sources */,
 				ABF30F002627FF06008CD8FA /* ImagePrac.swift in Sources */,
 				ABF30EFD2627F4C7008CD8FA /* TextPrac.swift in Sources */,
+				ABB0F41E26412D0C00C665F9 /* DeepLinkView.swift in Sources */,
 				ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */,
+				ABB0F4172641228700C665F9 /* DeepLinkTodo.swift in Sources */,
 				AB8A152026380CB3008268D2 /* CustomButtonStyle.swift in Sources */,
 				AB668E252626024100938A3E /* SwiftUI_tutorialsApp.swift in Sources */,
 				AB8FDC732631319D00279E95 /* ZStackView.swift in Sources */,
