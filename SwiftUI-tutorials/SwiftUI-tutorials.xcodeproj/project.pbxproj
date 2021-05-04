@@ -42,6 +42,7 @@
 		ABF30F002627FF06008CD8FA /* ImagePrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EFF2627FF06008CD8FA /* ImagePrac.swift */; };
 		ABF30F03262801CA008CD8FA /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30F02262801CA008CD8FA /* CircleImageView.swift */; };
 		ABF30F06262813CE008CD8FA /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30F05262813CE008CD8FA /* BindingView.swift */; };
+		ABF7FF06264179F0007B60BB /* CustomMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF7FF05264179F0007B60BB /* CustomMenuView.swift */; };
 		CC9BA47BF42463434E528C52 /* Pods_SwiftUI_tutorials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6AFED8DBB1D6024673E009 /* Pods_SwiftUI_tutorials.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		ABF30EFF2627FF06008CD8FA /* ImagePrac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePrac.swift; sourceTree = "<group>"; };
 		ABF30F02262801CA008CD8FA /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		ABF30F05262813CE008CD8FA /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		ABF7FF05264179F0007B60BB /* CustomMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuView.swift; sourceTree = "<group>"; };
 		D5C8F4A923B2177006C66238 /* Pods-SwiftUI-tutorials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-tutorials.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-tutorials/Pods-SwiftUI-tutorials.debug.xcconfig"; sourceTree = "<group>"; };
 		DF6AFED8DBB1D6024673E009 /* Pods_SwiftUI_tutorials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_tutorials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -166,6 +168,7 @@
 				ABB0F4162641228700C665F9 /* DeepLinkTodo.swift */,
 				ABB0F41926412A5F00C665F9 /* DeepLinkProfile.swift */,
 				ABB0F41D26412D0C00C665F9 /* DeepLinkView.swift */,
+				ABF7FF05264179F0007B60BB /* CustomMenuView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF7FF06264179F0007B60BB /* CustomMenuView.swift in Sources */,
 				ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */,
 				AB8FDC792631366200279E95 /* BasicCardView.swift in Sources */,
 				AB8A151A2637E8A4008268D2 /* ColorView.swift in Sources */,
