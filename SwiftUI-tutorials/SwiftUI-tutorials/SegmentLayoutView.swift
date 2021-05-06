@@ -47,31 +47,31 @@ struct SegmentLayoutView: View {
                 })
             }).pickerStyle(SegmentedPickerStyle())
 
-            ScrollView {
-                LazyVGrid(columns: selectedLayoutType.columns, content: {
+            ScrollView(.horizontal) {
+                LazyHGrid(rows: selectedLayoutType.columns, content: {
                     ForEach(dummyDatas) {
                         _ in
                         switch selectedLayoutType {
                         case .table:
                             Rectangle()
                                 .foregroundColor(.pink)
-                                .frame(height: 100)
+                                .frame(width: 100)
 
                         case .grid:
                             RoundedRectangle(cornerRadius: 25)
                                 .foregroundColor(.yellow)
-                                .frame(height: 200)
+                                .frame(width: 200)
                                 .overlay(Circle().foregroundColor(.orange).padding())
 
                         case .multiple:
                             Rectangle()
                                 .foregroundColor(.gray)
-                                .frame(height: 100)
+                                .frame(width: 100)
                         }
                     }
                 })
-                .animation(.easeInOut)
-                .padding(.horizontal, 30)
+                    .animation(.easeInOut)
+                    .padding(.vertical, 30)
             }
         }
     }
