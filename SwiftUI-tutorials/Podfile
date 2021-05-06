@@ -8,5 +8,6 @@ target 'SwiftUI-tutorials' do
   # Pods for SwiftUI-tutorials
   pod 'ExytePopupView'
   pod 'Alamofire', '~> 5.2'
+  pod 'URLImage'
 
 end

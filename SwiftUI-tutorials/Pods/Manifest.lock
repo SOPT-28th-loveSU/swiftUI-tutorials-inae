@@ -1,20 +1,42 @@
 PODS:
   - Alamofire (5.4.1)
   - ExytePopupView (0.0.12)
+  - URLImage (2.2.5):
+    - URLImage/Common (= 2.2.5)
+    - URLImage/DownloadManager (= 2.2.5)
+    - URLImage/FileIndex (= 2.2.5)
+    - URLImage/ImageDecoder (= 2.2.5)
+    - URLImage/Log (= 2.2.5)
+    - URLImage/PlainDatabase (= 2.2.5)
+    - URLImage/RemoteContentView (= 2.2.5)
+  - URLImage/Common (2.2.5)
+  - URLImage/DownloadManager (2.2.5):
+    - URLImage/Log
+  - URLImage/FileIndex (2.2.5):
+    - URLImage/Common
+    - URLImage/Log
+    - URLImage/PlainDatabase
+  - URLImage/ImageDecoder (2.2.5)
+  - URLImage/Log (2.2.5)
+  - URLImage/PlainDatabase (2.2.5)
+  - URLImage/RemoteContentView (2.2.5)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
   - ExytePopupView
+  - URLImage
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - ExytePopupView
+    - URLImage
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   ExytePopupView: 93525e88546df6001e7f68f90b66b2e21a27f887
+  URLImage: 36a66c03ba2a9ccbbf06bc83431f2cef171008e8
 
-PODFILE CHECKSUM: a9bdd033e3210ad0ab44fd7659d7fb671e270153
+PODFILE CHECKSUM: 960a8d0454861a740d3459b97f8d2fc04ff0e4f0
 
 COCOAPODS: 1.10.0

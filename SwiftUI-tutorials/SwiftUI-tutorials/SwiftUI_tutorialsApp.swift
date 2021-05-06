@@ -19,7 +19,8 @@ struct SwiftUI_tutorialsApp: App {
 //            CustomButtonView()
 //            CustomTextFieldView()
 //            CustomPopUpView()
-            DeepLinkView()
+//            DeepLinkView()
+            RandomUserList()
         }
     }
 }
