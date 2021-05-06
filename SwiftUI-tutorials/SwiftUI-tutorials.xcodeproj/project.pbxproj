@@ -123,6 +123,117 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AB00BBE12643E387000094F4 /* StackView */ = {
+			isa = PBXGroup;
+			children = (
+				AB668E34262606A000938A3E /* MyVStackView.swift */,
+				ABF30EF32626A4CD008CD8FA /* MyTestView.swift */,
+				AB8FDC6C26312AA300279E95 /* VStackView.swift */,
+				AB8FDC6F26312EC500279E95 /* HStackView.swift */,
+				AB8FDC722631319D00279E95 /* ZStackView.swift */,
+			);
+			path = StackView;
+			sourceTree = "<group>";
+		};
+		AB00BBE32643E3A0000094F4 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0F410264070DE00C665F9 /* ColorPickerView.swift */,
+				ABB0F4132640770100C665F9 /* FilterPickerView.swift */,
+				ABF7FF05264179F0007B60BB /* CustomMenuView.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		AB00BBE42643E3B6000094F4 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				ABF30EF62627545E008CD8FA /* MyWebView.swift */,
+				ABF30EFF2627FF06008CD8FA /* ImagePrac.swift */,
+				ABF30EF9262759E1008CD8FA /* WebView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		AB00BBE52643E3D7000094F4 /* DeepLinkView */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0F4162641228700C665F9 /* DeepLinkTodo.swift */,
+				ABB0F41926412A5F00C665F9 /* DeepLinkProfile.swift */,
+				ABB0F41D26412D0C00C665F9 /* DeepLinkView.swift */,
+			);
+			path = DeepLinkView;
+			sourceTree = "<group>";
+		};
+		AB00BBE72643E492000094F4 /* LazyGridView */ = {
+			isa = PBXGroup;
+			children = (
+				AB00BBD72643CCB0000094F4 /* LazyVGridView.swift */,
+				AB00BBDA2643D21D000094F4 /* SegmentLayoutView.swift */,
+			);
+			path = LazyGridView;
+			sourceTree = "<group>";
+		};
+		AB00BBE92643E4D7000094F4 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A151C26380BBA008268D2 /* CustomButtonView.swift */,
+				AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */,
+				AB8A152226381655008268D2 /* RatateButtonStyle.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		AB00BBEA2643E50F000094F4 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A150B2637169A008268D2 /* GeometryReaderView.swift */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		AB00BBEB2643E529000094F4 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A15102637D88E008268D2 /* BasicTabView.swift */,
+				AB8A15162637DC6D008268D2 /* CustomTabView.swift */,
+				AB1A9F822635B04E005C3059 /* ListView.swift */,
+				AB8A150026369343008268D2 /* CustomNavigationView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		AB00BBEC2643E572000094F4 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A152E2639B4D9008268D2 /* CustomTextFieldView.swift */,
+				ABF30F05262813CE008CD8FA /* BindingView.swift */,
+				AB8A15192637E8A4008268D2 /* ColorView.swift */,
+				ABF30EFC2627F4C7008CD8FA /* TextPrac.swift */,
+				ABF30F02262801CA008CD8FA /* CircleImageView.swift */,
+				AB8A150526369C11008268D2 /* ProfileView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		AB00BBEF2643E5C8000094F4 /* PopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				AB8A15352639BC68008268D2 /* CustomPopUpView.swift */,
+			);
+			path = PopUpView;
+			sourceTree = "<group>";
+		};
+		AB00BBF12643E5F1000094F4 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				AB8FDC752631338900279E95 /* ProjectCardView.swift */,
+				AB8FDC782631366200279E95 /* BasicCardView.swift */,
+				AB8FDC7B2631384600279E95 /* TotalCardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
 		AB668E182626024100938A3E = {
 			isa = PBXGroup;
 			children = (
@@ -136,45 +247,22 @@
 		AB668E232626024100938A3E /* SwiftUI-tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				AB00BBF12643E5F1000094F4 /* CardView */,
+				AB00BBEF2643E5C8000094F4 /* PopUpView */,
+				AB00BBEC2643E572000094F4 /* Component */,
+				AB00BBEB2643E529000094F4 /* TabView */,
+				AB00BBEA2643E50F000094F4 /* Geometry */,
+				AB00BBE92643E4D7000094F4 /* Button */,
+				AB00BBE72643E492000094F4 /* LazyGridView */,
+				AB00BBE52643E3D7000094F4 /* DeepLinkView */,
+				AB00BBE42643E3B6000094F4 /* WebView */,
+				AB00BBE32643E3A0000094F4 /* PickerView */,
+				AB00BBE12643E387000094F4 /* StackView */,
 				AB668E242626024100938A3E /* SwiftUI_tutorialsApp.swift */,
 				AB668E262626024100938A3E /* ContentView.swift */,
 				AB668E282626024200938A3E /* Assets.xcassets */,
 				AB668E2D2626024200938A3E /* Info.plist */,
 				AB668E2A2626024200938A3E /* Preview Content */,
-				AB668E34262606A000938A3E /* MyVStackView.swift */,
-				ABF30EF32626A4CD008CD8FA /* MyTestView.swift */,
-				ABF30EF62627545E008CD8FA /* MyWebView.swift */,
-				ABF30EF9262759E1008CD8FA /* WebView.swift */,
-				ABF30EFC2627F4C7008CD8FA /* TextPrac.swift */,
-				ABF30EFF2627FF06008CD8FA /* ImagePrac.swift */,
-				ABF30F02262801CA008CD8FA /* CircleImageView.swift */,
-				ABF30F05262813CE008CD8FA /* BindingView.swift */,
-				AB8FDC6C26312AA300279E95 /* VStackView.swift */,
-				AB8FDC6F26312EC500279E95 /* HStackView.swift */,
-				AB8FDC722631319D00279E95 /* ZStackView.swift */,
-				AB8FDC752631338900279E95 /* ProjectCardView.swift */,
-				AB8FDC782631366200279E95 /* BasicCardView.swift */,
-				AB8FDC7B2631384600279E95 /* TotalCardView.swift */,
-				AB1A9F822635B04E005C3059 /* ListView.swift */,
-				AB8A150026369343008268D2 /* CustomNavigationView.swift */,
-				AB8A150526369C11008268D2 /* ProfileView.swift */,
-				AB8A150B2637169A008268D2 /* GeometryReaderView.swift */,
-				AB8A15102637D88E008268D2 /* BasicTabView.swift */,
-				AB8A15162637DC6D008268D2 /* CustomTabView.swift */,
-				AB8A15192637E8A4008268D2 /* ColorView.swift */,
-				AB8A151C26380BBA008268D2 /* CustomButtonView.swift */,
-				AB8A151F26380CB3008268D2 /* CustomButtonStyle.swift */,
-				AB8A152226381655008268D2 /* RatateButtonStyle.swift */,
-				AB8A152E2639B4D9008268D2 /* CustomTextFieldView.swift */,
-				AB8A15352639BC68008268D2 /* CustomPopUpView.swift */,
-				ABB0F410264070DE00C665F9 /* ColorPickerView.swift */,
-				ABB0F4132640770100C665F9 /* FilterPickerView.swift */,
-				ABB0F4162641228700C665F9 /* DeepLinkTodo.swift */,
-				ABB0F41926412A5F00C665F9 /* DeepLinkProfile.swift */,
-				ABB0F41D26412D0C00C665F9 /* DeepLinkView.swift */,
-				ABF7FF05264179F0007B60BB /* CustomMenuView.swift */,
-				AB00BBD72643CCB0000094F4 /* LazyVGridView.swift */,
-				AB00BBDA2643D21D000094F4 /* SegmentLayoutView.swift */,
 			);
 			path = "SwiftUI-tutorials";
 			sourceTree = "<group>";
