@@ -12,7 +12,7 @@ struct UserResponseData: Codable, CustomStringConvertible {
     var info: Info
 }
 
-struct Info: Codable {
+struct Info: Codable, CustomStringConvertible {
     var seed: String
     var resultsCount: Int
     var page: Int

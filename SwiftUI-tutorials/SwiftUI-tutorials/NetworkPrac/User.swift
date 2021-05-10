@@ -37,3 +37,9 @@ struct User: Codable, Identifiable, CustomStringConvertible {
         name.description
     }
 }
+
+extension User: Equatable {
+    static func == (lhs: User, rhs: User) -> Bool {
+        return lhs.id == rhs.id
+    }
+}

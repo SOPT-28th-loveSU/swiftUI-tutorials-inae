@@ -21,7 +21,7 @@ class RefreshControlHelper {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             print("refresh ,, :)")
 
-            parentView.randomUserViewModel.fetchRandomUser()
+            parentView.randomUserViewModel.refreshActionSubject.send()
             refresh.endRefreshing()
         }
     }
@@ -35,8 +35,20 @@ struct RandomUserList: View {
     var body: some View {
         List(randomUserViewModel.randomUsers) { user in
             UserView(user)
+                .onAppear {
+                    print("appear")
+                    if self.randomUserViewModel.randomUsers.last == user {
+                        randomUserViewModel.fetchMoreActionSubject.send()
+                    }
+                }
         }.introspectTableView {
             self.configRefreshoControl($0)
+        }
+
+        if randomUserViewModel.isLoading {
+            ProgressView()
+                .progressViewStyle(CircularProgressViewStyle(tint: Color.orange))
+                .scaleEffect(1.8, anchor: .center)
         }
     }
 }

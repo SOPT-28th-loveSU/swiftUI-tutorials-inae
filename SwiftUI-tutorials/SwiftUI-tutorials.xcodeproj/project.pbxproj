@@ -47,6 +47,7 @@
 		ABB0F4172641228700C665F9 /* DeepLinkTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0F4162641228700C665F9 /* DeepLinkTodo.swift */; };
 		ABB0F41A26412A5F00C665F9 /* DeepLinkProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0F41926412A5F00C665F9 /* DeepLinkProfile.swift */; };
 		ABB0F41E26412D0C00C665F9 /* DeepLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB0F41D26412D0C00C665F9 /* DeepLinkView.swift */; };
+		ABD2F1B4264963C60019BCED /* RandomUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2F1B3264963C60019BCED /* RandomUserRouter.swift */; };
 		ABF30EF42626A4CD008CD8FA /* MyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF32626A4CD008CD8FA /* MyTestView.swift */; };
 		ABF30EF72627545E008CD8FA /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF62627545E008CD8FA /* MyWebView.swift */; };
 		ABF30EFA262759E1008CD8FA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30EF9262759E1008CD8FA /* WebView.swift */; };
@@ -102,6 +103,7 @@
 		ABB0F4162641228700C665F9 /* DeepLinkTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkTodo.swift; sourceTree = "<group>"; };
 		ABB0F41926412A5F00C665F9 /* DeepLinkProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkProfile.swift; sourceTree = "<group>"; };
 		ABB0F41D26412D0C00C665F9 /* DeepLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkView.swift; sourceTree = "<group>"; };
+		ABD2F1B3264963C60019BCED /* RandomUserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserRouter.swift; sourceTree = "<group>"; };
 		ABF30EF32626A4CD008CD8FA /* MyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTestView.swift; sourceTree = "<group>"; };
 		ABF30EF62627545E008CD8FA /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		ABF30EF9262759E1008CD8FA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 				AB00BBF42643E729000094F4 /* ProfileImageView.swift */,
 				AB00BBFE2643EC17000094F4 /* UserView.swift */,
 				AB00BC04264418BB000094F4 /* RandomUserListView.swift */,
+				ABD2F1B3264963C60019BCED /* RandomUserRouter.swift */,
 			);
 			path = NetworkPrac;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				AB00BC0B26442481000094F4 /* RandomUserViewModel.swift in Sources */,
 				AB8A151A2637E8A4008268D2 /* ColorView.swift in Sources */,
 				AB8A151D26380BBA008268D2 /* CustomButtonView.swift in Sources */,
+				ABD2F1B4264963C60019BCED /* RandomUserRouter.swift in Sources */,
 				ABF30F03262801CA008CD8FA /* CircleImageView.swift in Sources */,
 				AB1A9F832635B04E005C3059 /* ListView.swift in Sources */,
 				ABF30F06262813CE008CD8FA /* BindingView.swift in Sources */,
