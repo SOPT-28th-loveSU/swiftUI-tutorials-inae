@@ -9,5 +9,6 @@ target 'SwiftUI-tutorials' do
   pod 'ExytePopupView'
   pod 'Alamofire', '~> 5.2'
   pod 'URLImage'
+  pod 'Introspect'
 
 end
