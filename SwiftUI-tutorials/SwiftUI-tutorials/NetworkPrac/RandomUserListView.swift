@@ -20,7 +20,7 @@ class RefreshControlHelper {
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
             print("refresh ,, :)")
-            
+
             parentView.randomUserViewModel.fetchRandomUser()
             refresh.endRefreshing()
         }
@@ -35,15 +35,21 @@ struct RandomUserList: View {
     var body: some View {
         List(randomUserViewModel.randomUsers) { user in
             UserView(user)
-        }.introspectTableView { tableView in
-            let tableRefresh = UIRefreshControl()
-            refreshControleHelper.refreshControl = tableRefresh
-            refreshControleHelper.parentView = self
-
-            tableRefresh.addTarget(refreshControleHelper, action: #selector(refreshControleHelper.didRefresh), for: .valueChanged)
-
-            tableView.refreshControl = tableRefresh
+        }.introspectTableView {
+            self.configRefreshoControl($0)
         }
+    }
+}
+
+private extension RandomUserList {
+    func configRefreshoControl(_ tableView: UITableView) {
+        let tableRefresh = UIRefreshControl()
+        refreshControleHelper.refreshControl = tableRefresh
+        refreshControleHelper.parentView = self
+
+        tableRefresh.addTarget(refreshControleHelper, action: #selector(refreshControleHelper.didRefresh), for: .valueChanged)
+
+        tableView.refreshControl = tableRefresh
     }
 }
 
