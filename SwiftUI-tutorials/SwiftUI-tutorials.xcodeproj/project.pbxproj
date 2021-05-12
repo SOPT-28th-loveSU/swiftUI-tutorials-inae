@@ -56,6 +56,7 @@
 		ABF30F03262801CA008CD8FA /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30F02262801CA008CD8FA /* CircleImageView.swift */; };
 		ABF30F06262813CE008CD8FA /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF30F05262813CE008CD8FA /* BindingView.swift */; };
 		ABF780BB264B9A3A006E9FCB /* ModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF780BA264B9A3A006E9FCB /* ModifierView.swift */; };
+		ABF780C0264B9EB1006E9FCB /* DarkModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF780BF264B9EB1006E9FCB /* DarkModeView.swift */; };
 		ABF7FF06264179F0007B60BB /* CustomMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF7FF05264179F0007B60BB /* CustomMenuView.swift */; };
 		CC9BA47BF42463434E528C52 /* Pods_SwiftUI_tutorials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6AFED8DBB1D6024673E009 /* Pods_SwiftUI_tutorials.framework */; };
 /* End PBXBuildFile section */
@@ -113,6 +114,7 @@
 		ABF30F02262801CA008CD8FA /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		ABF30F05262813CE008CD8FA /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		ABF780BA264B9A3A006E9FCB /* ModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierView.swift; sourceTree = "<group>"; };
+		ABF780BF264B9EB1006E9FCB /* DarkModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeView.swift; sourceTree = "<group>"; };
 		ABF7FF05264179F0007B60BB /* CustomMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuView.swift; sourceTree = "<group>"; };
 		D5C8F4A923B2177006C66238 /* Pods-SwiftUI-tutorials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-tutorials.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-tutorials/Pods-SwiftUI-tutorials.debug.xcconfig"; sourceTree = "<group>"; };
 		DF6AFED8DBB1D6024673E009 /* Pods_SwiftUI_tutorials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_tutorials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -296,6 +298,7 @@
 		AB668E232626024100938A3E /* SwiftUI-tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				ABF780BE264B9EA1006E9FCB /* DarkMode */,
 				ABF780B9264B9A20006E9FCB /* ViewModifierPrac */,
 				AB00BC12264520E9000094F4 /* PropertyWrapperPrac */,
 				AB00BBF32643E70C000094F4 /* NetworkPrac */,
@@ -333,6 +336,14 @@
 				ABF780BA264B9A3A006E9FCB /* ModifierView.swift */,
 			);
 			path = ViewModifierPrac;
+			sourceTree = "<group>";
+		};
+		ABF780BE264B9EA1006E9FCB /* DarkMode */ = {
+			isa = PBXGroup;
+			children = (
+				ABF780BF264B9EB1006E9FCB /* DarkModeView.swift */,
+			);
+			path = DarkMode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,6 +480,7 @@
 				ABB0F4142640770100C665F9 /* FilterPickerView.swift in Sources */,
 				AB00BC2326452C93000094F4 /* CardView.swift in Sources */,
 				AB00BC142645211A000094F4 /* ObservableButtonView.swift in Sources */,
+				ABF780C0264B9EB1006E9FCB /* DarkModeView.swift in Sources */,
 				AB00BC0826441FFA000094F4 /* UserResponseData.swift in Sources */,
 				AB8FDC7026312EC500279E95 /* HStackView.swift in Sources */,
 				AB8A15172637DC6D008268D2 /* CustomTabView.swift in Sources */,
